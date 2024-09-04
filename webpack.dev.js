@@ -13,7 +13,7 @@ module.exports = merge(common, {
     watchFiles: ["src/*.html", "src/*.css", "src/*.js"],
     // open:true,
     // compress:true,
-    liveReload: false,
+    liveReload: true,
   },
   plugins: [new webpack.HotModuleReplacementPlugin()],
   optimization: {
